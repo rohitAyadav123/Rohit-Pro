@@ -1,0 +1,7 @@
+/* external.css */
+/* important flag kuch bhi karo color change nahi hota */
+
+h1 {
+
+    color: green !important;
+}

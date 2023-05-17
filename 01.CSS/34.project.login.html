@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+        integrity="sha512-SJw7jzjMYJhsEnN/BuxTWXkezA2cRanuB8TdCNMXFJjxG9ZGSKOX5P3j03H6kdMxalKHZ7vlBMB4CagFP/de0A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+
+    }
+
+    .box {
+        height: 200px;
+        background-color: #672a96dc;
+
+    }
+
+    body {
+        background-color: rgb(249, 241, 241)
+    }
+
+    .card {
+        border: 2px solid #662d91;
+        width: 600px;
+        margin: 0 auto;
+        margin-top: -170px;
+    }
+
+    .card-body {
+        padding: 2rem 1rem;
+
+    }
+
+    .card-body p {
+        color: gray;
+        margin: 1rem 0px;
+
+    }
+
+    .card-body input {
+        width: 100%;
+        border-top-right-radius: 0.25rem;
+        border-bottom-right-radius: 0.25rem;
+        border: none;
+        background-color: #662d918e;
+        height: 3rem;
+    }
+
+    .card-body input::placeholder:hover {
+        color: purple;
+        padding: 0px 1rem;
+    }
+
+    .input-group {
+        display: flex;
+    }
+
+    .input-group span {
+        display: flex;
+        align-items: center;
+    }
+
+    .card-body span {
+        background-color: #662d91;
+        color: aliceblue;
+        padding: 0.5rem 1rem;
+        width: 150px;
+        border-top-left-radius: 0.25rem;
+        border-bottom-left-radius: 0.25rem;
+    }
+
+    .card-header {
+        /* background-color: #662d91; */
+        background-image: url(./asset/images/1.svg);
+        padding: 3rem 0px;
+        text-align: center;
+    }
+
+    .card-header>h1 {
+        color: white;
+        font-size: 3rem;
+    }
+
+
+
+    .card-header>p {
+        color: rgb(235, 239, 243);
+        margin: 1rem 0;
+
+    }
+
+    button {
+        border: 1px solid rebeccapurple;
+        padding: 1rem;
+        border: none;
+        width: 100%;
+        margin-top: 1.5rem;
+        font-size: 1.5rem;
+        background-color: blueviolet;
+        color: antiquewhite;
+        border-radius: 0.5rem;
+    }
+</style>
+</head>
+
+<body>
+    <div class="box"></div>
+    <div class="card">
+        <div class="card-header">
+            <!-- <img src="" alt=""> -->
+            <h1>Secure login</h1>
+            <p>Powered By Skillhub</p>
+        </div>
+        <div class="card-body">
+            <div class="input-group">
+                <span>User name</span>
+                <input class="hvr-grow" type="text" placeholder=" Register Emali / Mobile Number">
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <div class="input-group">
+                <span>User name</span>
+                <input type="text" class="hvr-grow" placeholder=" Register Emali / Mobile Number">
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <div class="input-group">
+                <span>User name</span>
+                <input type="text" class="hvr-grow" placeholder=" Register Emali / Mobile Number">
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <button class="hvr-buzz">Login</button>
+        </div>
+    </div>
+</body>
+
+</html>

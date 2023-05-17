@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            border: 2px solid red;
+            position: relative;
+            /* top: 0px; */
+            /* right: 0px; */
+
+            /* top right bottom left  */
+
+        }
+
+        .child {
+            height: 50px;
+            width: 50px;
+            background-color: blue;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            /* position: relative; */
+            /* right: 25px; */
+        }
+
+        .dummy {
+            background-color: yellow;
+            height: 400px;
+            width: 1500px;
+        }
+
+        .fixed {
+            background-color: brown;
+            height: 50px;
+            width: 50px;
+            position: fixed;
+            top: 100px;
+            right: 0px;
+        }
+
+
+
+
+        /* static....default
+        absolute
+        realative
+        fixed
+        sticky */
+    </style>
+</head>
+
+<body>
+    <div class="dummy"></div>
+    <div class="box">
+        <div class="child"></div>
+    </div>
+    <div class="fixed"></div>
+
+
+    <div class="dummy"></div>
+</body>
+
+</html>
